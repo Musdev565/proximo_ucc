@@ -1,0 +1,449 @@
+{
+  "_avertissement": "DONNÉES PROVISOIRES ET ARBITRAIRES (base : JSON généré par une autre IA). À corriger lors de la descente sur place : noms, promotions, présence/absence de chaque salle par niveau. Le nombre réel de salles varie de 5 à 7 par niveau.",
+  "batiment": "UCC Mont-Ngafula",
+  "systeme_coordonnees": {
+    "unites": "metres_schematiques",
+    "x": "gauche_vers_droite",
+    "y": "avant_vers_fond",
+    "origine": "coin_avant_gauche"
+  },
+  "enveloppe": {
+    "largeur": 42.0,
+    "profondeur": 24.0,
+    "hauteur_etage": 4.0
+  },
+  "niveaux": [
+    {
+      "niveau": 1,
+      "id": "N1",
+      "z_min": 4.0,
+      "z_max": 8.0,
+      "espaces": [
+        {
+          "code": "N1-AMPHI",
+          "type": "amphitheater",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 14.0,
+            "y": 1.5,
+            "width": 14.0,
+            "depth": 6.5
+          },
+          "acces": "Amphithéâtre, face à l'entrée du niveau"
+        },
+        {
+          "code": "N1-G-FOND",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 18.0,
+            "width": 7.0,
+            "depth": 4.5
+          },
+          "acces": "Tout au fond du couloir à gauche",
+          "verifie": false
+        },
+        {
+          "code": "N1-G-COTE",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 12.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "À gauche près de l'aile gauche",
+          "verifie": false
+        },
+        {
+          "code": "N1-G-APRES-ESC",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 6.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "Dès qu'on dépasse un peu l'escalier gauche",
+          "verifie": false
+        },
+        {
+          "code": "N1-D-FOND",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 18.0,
+            "width": 7.0,
+            "depth": 4.5
+          },
+          "acces": "Tout au fond du couloir à droite",
+          "verifie": false
+        },
+        {
+          "code": "N1-D-COTE",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 12.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "À droite près de l'aile droite",
+          "verifie": false
+        },
+        {
+          "code": "N1-D-APRES-ESC",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 6.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "Dès qu'on dépasse un peu l'escalier droit",
+          "verifie": false
+        },
+        {
+          "code": "N1-ESC-G",
+          "type": "stairs",
+          "bounds": {
+            "x": 9.5,
+            "y": 18.0,
+            "width": 3.5,
+            "depth": 4.0
+          }
+        },
+        {
+          "code": "N1-ESC-D",
+          "type": "stairs",
+          "bounds": {
+            "x": 29.0,
+            "y": 18.0,
+            "width": 3.5,
+            "depth": 4.0
+          }
+        },
+        {
+          "code": "N1-VIDE",
+          "type": "central_void",
+          "garde_corps": true,
+          "bounds": {
+            "x": 14.5,
+            "y": 9.5,
+            "width": 13.0,
+            "depth": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "niveau": 2,
+      "id": "N2",
+      "z_min": 8.0,
+      "z_max": 12.0,
+      "espaces": [
+        {
+          "code": "N2-AMPHI",
+          "type": "amphitheater",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 14.0,
+            "y": 1.5,
+            "width": 14.0,
+            "depth": 6.5
+          },
+          "acces": "Amphithéâtre, face à l'entrée du niveau"
+        },
+        {
+          "code": "N2-G-FOND",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 18.0,
+            "width": 7.0,
+            "depth": 4.5
+          },
+          "acces": "Tout au fond du couloir à gauche",
+          "verifie": false
+        },
+        {
+          "code": "N2-G-COTE",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 12.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "À gauche près de l'aile gauche",
+          "verifie": false
+        },
+        {
+          "code": "N2-G-APRES-ESC",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 6.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "Dès qu'on dépasse un peu l'escalier gauche",
+          "verifie": false
+        },
+        {
+          "code": "N2-D-FOND",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 18.0,
+            "width": 7.0,
+            "depth": 4.5
+          },
+          "acces": "Tout au fond du couloir à droite",
+          "verifie": false
+        },
+        {
+          "code": "N2-D-COTE",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 12.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "À droite près de l'aile droite",
+          "verifie": false
+        },
+        {
+          "code": "N2-D-APRES-ESC",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 6.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "Dès qu'on dépasse un peu l'escalier droit",
+          "verifie": false
+        },
+        {
+          "code": "N2-ESC-G",
+          "type": "stairs",
+          "bounds": {
+            "x": 9.5,
+            "y": 18.0,
+            "width": 3.5,
+            "depth": 4.0
+          }
+        },
+        {
+          "code": "N2-ESC-D",
+          "type": "stairs",
+          "bounds": {
+            "x": 29.0,
+            "y": 18.0,
+            "width": 3.5,
+            "depth": 4.0
+          }
+        },
+        {
+          "code": "N2-VIDE",
+          "type": "central_void",
+          "garde_corps": true,
+          "bounds": {
+            "x": 14.5,
+            "y": 9.5,
+            "width": 13.0,
+            "depth": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "niveau": 3,
+      "id": "N3",
+      "z_min": 12.0,
+      "z_max": 16.0,
+      "espaces": [
+        {
+          "code": "N3-AMPHI",
+          "type": "amphitheater",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 14.0,
+            "y": 1.5,
+            "width": 14.0,
+            "depth": 6.5
+          },
+          "acces": "Amphithéâtre, face à l'entrée du niveau"
+        },
+        {
+          "code": "N3-G-FOND",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 18.0,
+            "width": 7.0,
+            "depth": 4.5
+          },
+          "acces": "Tout au fond du couloir à gauche",
+          "verifie": false
+        },
+        {
+          "code": "N3-G-COTE",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 12.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "À gauche près de l'aile gauche",
+          "verifie": false
+        },
+        {
+          "code": "N3-G-APRES-ESC",
+          "type": "classroom",
+          "aile": "left",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 2.0,
+            "y": 6.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "Dès qu'on dépasse un peu l'escalier gauche",
+          "verifie": false
+        },
+        {
+          "code": "N3-D-FOND",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 18.0,
+            "width": 7.0,
+            "depth": 4.5
+          },
+          "acces": "Tout au fond du couloir à droite",
+          "verifie": false
+        },
+        {
+          "code": "N3-D-COTE",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 12.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "À droite près de l'aile droite",
+          "verifie": false
+        },
+        {
+          "code": "N3-D-APRES-ESC",
+          "type": "classroom",
+          "aile": "right",
+          "nom": null,
+          "promotion": null,
+          "bounds": {
+            "x": 33.0,
+            "y": 6.0,
+            "width": 7.0,
+            "depth": 5.0
+          },
+          "acces": "Dès qu'on dépasse un peu l'escalier droit",
+          "verifie": false
+        },
+        {
+          "code": "N3-ESC-G",
+          "type": "stairs",
+          "bounds": {
+            "x": 9.5,
+            "y": 18.0,
+            "width": 3.5,
+            "depth": 4.0
+          }
+        },
+        {
+          "code": "N3-ESC-D",
+          "type": "stairs",
+          "bounds": {
+            "x": 29.0,
+            "y": 18.0,
+            "width": 3.5,
+            "depth": 4.0
+          }
+        },
+        {
+          "code": "N3-VIDE",
+          "type": "central_void",
+          "garde_corps": true,
+          "bounds": {
+            "x": 14.5,
+            "y": 9.5,
+            "width": 13.0,
+            "depth": 6.0
+          }
+        }
+      ]
+    }
+  ],
+  "a_verifier": {
+    "rdc_et_sous_sol": "Le JSON d'origine place un amphithéâtre au RDC et au sous-sol (emprise identique). L'auteur avait décrit 3 niveaux avec auditoires et un sous-sol sans auditoire : à confirmer sur place.",
+    "emplacement_face_amphi": "L'auteur mentionne une salle « juste en face de l'amphithéâtre » absente du JSON d'origine, existante à certains niveaux seulement. À positionner.",
+    "niveau_1": "L'auteur indique qu'un emplacement (fond, côté) n'est pas une salle au niveau 1 mais en est une aux niveaux 2 et 3 : à préciser.",
+    "salles_existantes_par_niveau": "Retirer ou ajouter des salles dans 'espaces' selon la réalité (5 à 7 par niveau)."
+  }
+}

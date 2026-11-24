@@ -1,0 +1,17 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+# Secrets
+.env
+.env.*
+!.env.example
+# Back-end (Maven)
+backend/target/
+*.log
+# Front-end
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
