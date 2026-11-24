@@ -37,4 +37,4 @@
 2026-11-24 — Pas de précommande par pause : l'étudiant commande quand il veut de 8h à 15h30, sans choisir un créneau de pause.
 2026-11-24 — Annulation : seul le vendeur annule la commande lorsque la vente n'est pas conclue (l'acheteur ne peut pas annuler lui-même).
 2026-11-24 — Champ rôle ADMIN inclus dans le schéma dès le départ, même si les fonctionnalités admin viendront plus tard.
-2026-11-24 — Le RDC est un niveau distinct de N1 (le bâtiment a : sous-sol, RDC, N1, N2, N3). À clarifier si le RDC contient des auditoires.
+2026-11-24 — Le RDC est un niveau distinct de N1 (le bâtiment a : sous-sol, RDC, N1, N2, N3). Le RDC contient uniquement un amphi, pas d'autres salles.
