@@ -25,7 +25,7 @@
 | Front | TypeScript + Vite + Tailwind + React Router |
 | Connexion | Email + mot de passe ; téléphone demandé à l'inscription (contact de livraison) |
 | Monnaie | Franc congolais (FC), entiers (`BIGINT`), pas de décimales |
-| Annulation | Le vendeur peut annuler (avec motif) ; l'acheteur peut annuler tant que `PENDING` |
+| Annulation | Seul le vendeur annule (avec motif) lorsque la vente n'est pas conclue ; l'acheteur **ne peut pas** annuler |
 | Commande | Une commande = **une seule boutique** |
 | Reset quotidien | Les disponibilités sont **par date** : le « reset » n'efface rien, il ferme et expire |
 | Suivi de commande | Rafraîchissement régulier (polling ~15 s), pas de WebSocket |
@@ -34,3 +34,6 @@
 
 ## Journal des décisions (l'agent ajoute ici, avec la date)
 <!-- AAAA-MM-JJ — décision / dépendance ajoutée / version choisie — raison en une phrase -->
+2026-11-24 — Pas de précommande par pause : l'étudiant commande quand il veut de 8h à 15h30, sans choisir un créneau de pause.
+2026-11-24 — Annulation : seul le vendeur annule la commande lorsque la vente n'est pas conclue (l'acheteur ne peut pas annuler lui-même).
+2026-11-24 — Champ rôle ADMIN inclus dans le schéma dès le départ, même si les fonctionnalités admin viendront plus tard.
